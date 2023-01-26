@@ -1,0 +1,92 @@
+html {
+    background: #ebcae8a1;
+}
+
+
+header {
+    background: #d6b2dfc9;
+    padding: 25px 0;
+}
+
+#outfit {
+    width: 10%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #00813a;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+    vertical-align: top;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: solid 1px #00813a;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color: #c7199b;
+    border-color: #c7199b;
+    text-decoration: underline;
+}
+
+.streams {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.streams li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 3px black;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.streams h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    
+}
+.streams a:hover {
+    color: #c7199b;
+    border-color: #c7199b;
+    text-decoration: underline;
+}
+
+.streamdescricao {
+    font-size: 20px;
+    margin: 10px 0 0;
+
+}
+

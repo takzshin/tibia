@@ -12,6 +12,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    backdrop-filter: blur(4px);
 }
 
 #outfit {
@@ -46,7 +47,7 @@ nav a {
     box-sizing: border-box;
     border: solid 1px #000000;
     border-radius: 20px;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
     background: #FFFFFF;
 }
 
@@ -54,6 +55,7 @@ nav a:hover {
     color: #d6b2dfc9;
     border-color: #d6b2dfc9;
     text-decoration: underline;
+    transition: .2s ease-in-out;
     letter-spacing: 5px;
     transform: scale(1.1);
 }
@@ -85,6 +87,7 @@ main a {
     border-radius: 30px 30px 30px 30px;
     margin-bottom: 40px;
     background: #FFFFFF;
+    transition: .2s ease-in-out;
 }
 
 .streams li:hover {
